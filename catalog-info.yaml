@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ilead
+  description: ilead.com
+  annotations:
+    ilead.io/project-name: employee
+spec:
+  type: service
+  lifecycle: production
+  owner: user:ambrish
