@@ -5,7 +5,7 @@ metadata:
   description: ilead.com
   annotations:
     ilead.io/project-name: employee
-    ilead.io/program-name: employee
+    ilead.io/program-name: employeeprogram
     github.com/project-slug: test
 spec:
   type: service
