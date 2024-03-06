@@ -8,6 +8,6 @@ metadata:
     ilead.io/program-name: employeeprogram
     github.com/project-slug: test
 spec:
-  type: service
+  type: plugin
   lifecycle: production
   owner: user:ambrish
