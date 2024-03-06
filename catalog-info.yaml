@@ -11,3 +11,9 @@ spec:
   type: service
   lifecycle: production
   owner: user:ambrish
+catalog:
+  locations:
+    - type: url
+      target: https://github.com/backstage/software-templates/blob/main/scaffolder-templates/docs-template/template.yaml
+      rules:
+        - allow: [Template]
