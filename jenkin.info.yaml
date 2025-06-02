@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'Jenkins Test'
+  description: 'just testing jenkins'
+  annotations:
+    jenkins.io/job-full-name: 'hello-backstage'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ambrishr
